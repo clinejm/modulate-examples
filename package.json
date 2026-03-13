@@ -1,0 +1,21 @@
+{
+  "name": "modulate-examples",
+  "version": "1.0.0",
+  "description": "Modulate Velma-2 STT CLI examples",
+  "scripts": {
+    "transcribe": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.2",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "@types/node": "^22.13.10"
+  }
+}
